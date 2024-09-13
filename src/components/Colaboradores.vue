@@ -1,8 +1,9 @@
 <template>
-  <div>
+  <div class="crud">
+    <h1>CRUD - Colaboradores</h1>
     <form @submit.prevent="addColaborador">
       <input v-model="nuevoColaborador" placeholder="Nuevo colaborador" />
-      <button type="submit">Agregar</button>
+      <button type="submit">Agregar Colaborador</button>
     </form>
     <ul>
       <li v-for="colaborador in colaboradores" :key="colaborador.id">
