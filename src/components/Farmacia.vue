@@ -8,7 +8,7 @@
     </form>
     <ul>
       <li v-for="medicamento in farmacia" :key="medicamento.id">
-        {{ medicamento.id }} - {{ medicamento.nombre }}
+    {{ medicamento.nombre }}
       </li>
     </ul>
   </div>
