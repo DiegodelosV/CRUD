@@ -21,7 +21,6 @@ import {
   onSnapshot,
   addDoc,
   doc,
-  deleteDoc,
 } from "firebase/firestore";
 import firebaseApp from "../firebaseConfig";
 export default {
